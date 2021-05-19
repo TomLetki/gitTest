@@ -1,0 +1,32 @@
+git init				inicjalizacja repo w folderze
+git status 
+git cd ..				komendy jak w DOS
+git cd "folder"				=||=
+git add "plik"				dodaje wskazany plik	
+git add . 				dodaje wszystko do śledzenia, trakowania
+git config --global user.email " "	mail
+git config --global user.name " "	nazwa
+git commit -m "komentarz" 		zapis zmian do repo z komentarzem (m=message)
+git log    				historia zmian i komentarze
+git log -p
+git checkout "r7g287g2387rg872g"	cofanie się do konkretnego commita - praca na tatej wersji
+git clean -n				pokazuje nietrakowane pliki do usunięcia n=new
+git clean -f				usuwa nietrakowane pliki f=file
+git clean -d				usufa foldery
+git revert "h83h89h3"			cofa zmiany z danego commitu
+git reset head "plik.typ"		cofa komendę git add . dla pliku plik.typ
+git reset --hard "h892he982h"		kasuje pliki
+clear					czyści ekran jak cls w dos
+git checkout -b "nazwa"			tworzy nowy branch o nazwie "nazwa" Parametr -b
+git checkout "nazwa"			przepina na nowy branch o nazwie "nazwa"
+git merge "nazwa"			
+git merge --abort
+git diff				pokazuje zmiany w plikach na danym branchu. git add "plik"/ git restore "plik"
+git checkout --"plik"			to samo co git restore "plik" - cofa zmiany
+git push origin --all			wrzuca wszystkie branche z lokal do repo na githubie
+git push origin "branch"		wrzuca konkretną gałąź na githuba
+git pull origin "branch"		zaciągna konkretną gałąź z githuba do lakal repo
+git fetch				zaciągna z githuba ale nie wyświetla w working copy
+git merge				fetch + merge = pull
+git stash				ukryty schowek dla zmian w trakowanych plikach.
+git stash apply				przywraca wersję ze schowka
